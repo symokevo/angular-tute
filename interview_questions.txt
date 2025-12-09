@@ -1,0 +1,48 @@
+Angular Masterclass
+Chapter 1
+---------
+1. How does a browser render a web page?
+
+2. Explain the role of HTML, JavaScript, and CSS with an example.
+
+3. Why is TypeScript used instead of JavaScript for Angular development?
+
+4. Explain the advantage of a single page application over traditional websites with an example.
+
+CHAPTER 2
+---------
+1. What is node and npm?
+
+2. What is a Node version manager? Explain with a use case.
+
+3. Name a few IDEs used for Angular development.
+
+4. Explain a few features of VS Code to develop for Angular.
+
+5. Name a few useful VS Code extensions.
+
+CHAPTER 3
+---------
+1. Explain how to generate a new project using Angular CLI.
+
+2. How can you add a component to an existing project?
+
+3. How can you run unit tests on a project?
+
+4. What is the difference between dev and prod build in an Angular project?
+
+5. What are the main subfolders and files in the source folder of an Angular workspace, and what are their purposes?
+
+CHAPTER 4
+---------
+1. Explain the difference between a component and a service.
+
+2. Explain how the Angular dependency injection system works.
+
+3. What are the different types of directives?
+
+4. How can you create a custom pipe in Angular?
+
+CHAPTER 5
+---------
+
