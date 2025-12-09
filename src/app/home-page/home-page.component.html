@@ -1,0 +1,30 @@
+<div id="home_page">
+  <div>
+    <h2>Products list</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        {{ product.name }}
+        <span appHighlightPrice>
+          {{ product.price | currency:'USD':'symbol':'1.2-2' }}
+        </span>
+      </li>
+    </ul>
+  </div>
+
+    <div>
+    <h2>Another list with Dollar convert to Kenyan Shillings</h2>
+    <ul>
+      <li *ngFor="let product of products">
+        {{ product.name }}
+        <span appHighlightPrice>
+          {{ product.price | convertToKsh: 2 | currency:'KES ':'symbol':'1.2-2' }}
+        </span>
+      </li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+
+    </ul>
+  </div>
+</div>
