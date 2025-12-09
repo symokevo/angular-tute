@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { HomePageComponent } from './home-page/home-page.component';
+import { HomePageComponent } from './product/pages/home-page/home-page.component';
 import { RouterOutlet } from '@angular/router';
-import { ProductManagerComponent } from './product-manager/product-manager.component';
+import { ProductManagerComponent } from './product/components/product-manager/product-manager.component';
 
 @Component({
   selector: 'app-root',

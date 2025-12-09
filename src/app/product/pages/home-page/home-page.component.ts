@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { ProductService } from '../product.service';
+import { ProductService } from '../../services/product.service';
 import { CommonModule } from '@angular/common';
-import { Product } from '../models/Product';
-import { HighlightPriceDirective } from "../highlight-price.directive";
-import { ConvertToKshPipe } from "../convert-to-ksh.pipe";
+import { Product } from '../../models/Product';
+import { HighlightPriceDirective } from "../../../shared/directives/highlight-price.directive";
+import { ConvertToKshPipe } from "../../../shared/pipes/convert-to-ksh.pipe";
 
 @Component({
   selector: 'app-home-page',
